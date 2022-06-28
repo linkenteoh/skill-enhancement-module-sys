@@ -1,0 +1,17 @@
+.border{
+    background-color: rgb(235, 235, 235);
+    /* position: relative; */
+    overflow: hidden;
+}
+
+.txnhash{
+    /* position: relative; */
+    width: 100% !important;
+    overflow-wrap: break-word;
+}
+
+@media screen and (max-width: 991px) {
+    .border {
+        width: 90%;
+    }
+}

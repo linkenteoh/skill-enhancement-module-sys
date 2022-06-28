@@ -1,0 +1,30 @@
+.courseTitle:after {
+    background: none repeat scroll 0 0 rgb(12, 111, 240);
+    bottom: -10px;
+    content: "";
+    display: block;
+    height: 3px;
+    position: relative;
+    width: 100px;
+ }
+
+.threshold{
+    align-items: flex-end;
+}
+
+.cloned-input {
+    padding: 10px 12px 10px 12px;
+    border: 1px solid lightgrey;
+    border-radius: 2px;
+    margin-bottom: 5px;
+    margin-top: 2px;
+    width: 100%;
+    box-sizing: border-box;
+    color: #2C3E50;
+    font-size: 14px;
+    background-color: rgb(247, 247, 247);
+}
+
+.cloned-input a{
+    text-decoration: none;
+}

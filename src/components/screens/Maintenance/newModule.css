@@ -1,0 +1,28 @@
+.add-btn{
+    background-color: #ffffff;
+    padding: 8px;
+    color: rgb(197, 197, 197);
+    user-select: none;
+}
+
+.add-btn:hover{
+    background-color: #f0f0f0;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+@keyframes append-animate {
+	from {
+		transform: scale(0);
+		opacity: 0;
+	}
+	to {
+		transform: scale(1);
+		opacity: 1;	
+	}
+}
+
+/* animate new input */
+.new-input {
+	animation: append-animate .1s linear;
+}
