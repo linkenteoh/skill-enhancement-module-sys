@@ -21,7 +21,3 @@ nodemon server
 ```bash
 the web app should be up and running
 ```
-
-Admin credentials <br/>
-admin@admin.com <br/>
-1q2w3e4r
